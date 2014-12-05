@@ -1,5 +1,5 @@
 ---
 layout: page
-title: İlkin Ulaş Balkanay
+title: Fuat Coşkun
 permalink: /about/
 ---
