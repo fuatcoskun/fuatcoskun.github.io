@@ -1,10 +1,10 @@
 # Site settings
-title:       All your base are belong to us.
-email:       ilkinulas@gmail.com
-author:      İlkin Ulaş Balkanay
+title:       What can I do sometime?
+email:       fuatcoskun85@gmail.com
+author:      Fuat Coşkun
 description: ""
 baseurl:     ""
-url:         "http://ilkinulas.github.io"
+url:         "http://fuatcoskun.github.io"
 
 # Google analytics
 google_analytics:
@@ -16,9 +16,9 @@ show_post_footers:  false
 
 # Social icons
 show_social_icons: true
-github_username: ilkinulas
-twitter_username: ilkinulas
-google_plus_id: 100720094307560318548
+github_username: fuatcoskun
+twitter_username: fuatcoskun
+google_plus_id: 
 linkedin_username:
 bitcoin_url:
 paypal_url:
