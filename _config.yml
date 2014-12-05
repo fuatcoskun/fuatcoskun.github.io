@@ -1,16 +1,32 @@
 # Site settings
-title: Clean Blog
-email: your-email@yourdomain.com
-description: "Write your site description here. It will be used as your sites meta description as well!"
-baseurl: "/startbootstrap-clean-blog-jekyll"
-url: "http://yourdomain.com"
-twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  IronSummitMedia
+title:       All your base are belong to us.
+email:       ilkinulas@gmail.com
+author:      İlkin Ulaş Balkanay
+description: ""
+baseurl:     ""
+url:         "http://ilkinulas.github.io"
+
+# Google analytics
+google_analytics:
+
+# Optional features
+animated:           false
+show_related_posts: false
+show_post_footers:  false
+
+# Social icons
+show_social_icons: true
+github_username: ilkinulas
+twitter_username: ilkinulas
+google_plus_id: 100720094307560318548
+linkedin_username:
+bitcoin_url:
+paypal_url:
+flattr_button:
 
 # Build settings
-markdown: kramdown
-highlighter: pygments
-permalink: pretty
-paginate: 5
-exclude: ["node_modules"]
+markdown:     kramdown
+permalink:    pretty
+paginate:     3
+sass:
+compressed: true
