@@ -25,7 +25,7 @@ Firstly you need to know java type signatures stated in the following table :
 | F   | float   |
 | D   | double   |
 | L fully-qualified-class ;   | fully-qualified-class   |
-| [ type | type[] 
+| [ type | type[] |
 {: rules="groups"}
 
 Now you have a reference to type signatures and some java methods ready(I assume) but don't know how to call it from dark side(c++). Here is some example java methods and their signatures below:
@@ -59,11 +59,13 @@ jmethodID jMethod = JNIEnvironment->GetStaticMethodID(jClass, "sendNotificationP
 
 {% endhighlight %}
 
-At the end, if you don't want to handle these complex Signature extraction process by yourself, I suggest you to use "javap" tool. You only need is compiled java class
+At the end, if you don't want to handle these complex signature extraction process by yourself, I suggest you to use "**javap**" tool. You only need is compiled java class
 including methods you want to extract signatures.
 
+{% highlight %}
 > cd CompiledJavaClassDirectory
 > javap -p -s ClassName
+{% endhighlight %}
 
 It will show all the method's signatures like this :
 
