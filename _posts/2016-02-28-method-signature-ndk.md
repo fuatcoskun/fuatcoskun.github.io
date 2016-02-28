@@ -3,7 +3,7 @@ layout: post
 title: Extracting Java Method Signature for JNI calls
 description: "How to extract java method signature for calling from c++ side"
 modified: 2016-02-28
-tags: [sample post, code, highlighting]
+tags: [jni, java, c++]
 image:
   feature: abstract-10.jpg
   credit: dargadgetz
@@ -15,17 +15,17 @@ Firstly you need to know java type signatures stated in the following table :
 
 ### Java Type Signatures
 | Signature | Type |
-|:--------|:-------:|
-| Z   | boolean   |
-| B   | byte   |
-| C   | char   |
-| S   | short   |
-| I   | int   |
-| J   | long   |
-| F   | float   |
-| D   | double   |
-| L fully-qualified-class ;   | fully-qualified-class   |
-| [ type | type[] |
+|:-------------------------|----------------------:|
+| Z        				   | boolean               |
+| B                        | byte                  |
+| C                        | char                  |
+| S                        | short                 |
+| I                        | int                   |
+| J                        | long                  |
+| F                        | float                 |
+| D                        | double                |
+| L fully-qualified-class ;| fully-qualified-class |
+| [ type                   | type[]                |
 {: rules="groups"}
 
 Now you have a reference to type signatures and some java methods ready(I assume) but don't know how to call it from dark side(c++). Here is some example java methods and their signatures below:
@@ -62,10 +62,10 @@ jmethodID jMethod = JNIEnvironment->GetStaticMethodID(jClass, "sendNotificationP
 At the end, if you don't want to handle these complex signature extraction process by yourself, I suggest you to use "**javap**" tool. You only need is compiled java class
 including methods you want to extract signatures.
 
-{% highlight %}
+{% raw %}
 > cd CompiledJavaClassDirectory
 > javap -p -s ClassName
-{% endhighlight %}
+{% endraw %}
 
 It will show all the method's signatures like this :
 
