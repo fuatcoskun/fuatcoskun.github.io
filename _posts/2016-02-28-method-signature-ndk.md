@@ -62,10 +62,10 @@ jmethodID jMethod = JNIEnvironment->GetStaticMethodID(jClass, "sendNotificationP
 At the end, if you don't want to handle these complex signature extraction process by yourself, I suggest you to use "**javap**" tool. You only need is compiled java class
 including methods you want to extract signatures.
 
-{% raw %}
+{% highlight bash %}
 > cd CompiledJavaClassDirectory
 > javap -p -s ClassName
-{% endraw %}
+{% endhighlight %}
 
 It will show all the method's signatures like this :
 
@@ -76,7 +76,7 @@ public static void SetStringParam(java.lang.String, byte[]);
 ...
 {% endhighlight %}
 
-For more information about "javap" please [follow!]: <https://docs.oracle.com/javase/7/docs/technotes/tools/windows/javap.html>
+For more information about "javap" please follow: <https://docs.oracle.com/javase/7/docs/technotes/tools/windows/javap.html>
 
 
 
