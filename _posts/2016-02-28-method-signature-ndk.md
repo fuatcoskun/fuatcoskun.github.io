@@ -15,7 +15,7 @@ Firstly you need to know java type signatures stated in the following table :
 
 ### Java Type Signatures
 | Signature                 | Type                  |
-|---------------------------|-----------------------|
+| ------------------------- | --------------------- |
 | Z                         | boolean               |
 | B                         | byte                  |
 | C                         | char                  |
