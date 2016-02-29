@@ -15,18 +15,18 @@ Firstly you need to know java type signatures stated in the following table :
 
 ### Java Type Signatures
 
-Signature                 | Type                  
-------------------------- | ---------------------
-Z                         | boolean              
-B                         | byte                 
-C                         | char                 
-S                         | short                
-I                         | int                  
-J                         | long                 
-F                         | float                
-D                         | double               
-L fully-qualified-class ; | fully-qualified-class
-[ type                    | type[]               
+| Signature                 | Type                  |
+| ------------------------- | --------------------- |
+| Z                         | boolean               |
+| B                         | byte                  |
+| C                         | char                  |
+| S                         | short                 |
+| I                         | int                   |
+| J                         | long                  |
+| F                         | float                 |
+| D                         | double                |
+| L fully-qualified-class ; | fully-qualified-class |
+| [ type                    | type[]                |
 
 Now you have a reference to type signatures and some java methods ready(I assume) but don't know how to call it from dark side(c++). Here is some example java methods and their signatures below:
 
