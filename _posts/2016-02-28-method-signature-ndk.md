@@ -27,6 +27,7 @@ Firstly you need to know java type signatures stated in the following table :
 | D                         | double                |
 | L fully-qualified-class ; | fully-qualified-class |
 | [ type                    | type[]                |
+{: rules="groups"}
 
 Now you have a reference to type signatures and some java methods ready(I assume) but don't know how to call it from dark side(c++). Here is some example java methods and their signatures below:
 
