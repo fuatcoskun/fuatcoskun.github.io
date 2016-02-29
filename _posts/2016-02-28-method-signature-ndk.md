@@ -15,27 +15,14 @@ Firstly you need to know java type signatures stated in the following table :
 
 ### Java Type Signatures
 
-| Signature                 | Type                  |
-| ------------------------- | --------------------- |
-| Z                         | boolean               |
-| B                         | byte                  |
-| C                         | char                  |
-| S                         | short                 |
-| I                         | int                   |
-| J                         | long                  |
-| F                         | float                 |
-| D                         | double                |
-| L fully-qualified-class ; | fully-qualified-class |
-| [ type                    | type[]                |
-
-<table>
+<table border="1">
 	<tr>
-		<td>
-			**Signature**
-		</td>
-		<td>
-			**Type**
-		</td>
+		<th>
+			Signature
+		</th>
+		<th>
+			Type
+		</th>
 	</tr>
 	<tr>
 		<td>
@@ -99,14 +86,6 @@ Firstly you need to know java type signatures stated in the following table :
 		</td>
 		<td>
 			double
-		</td>
-	</tr>
-	<tr>
-		<td>
-			F
-		</td>
-		<td>
-
 		</td>
 	</tr>
 	<tr>
