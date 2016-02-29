@@ -27,7 +27,105 @@ Firstly you need to know java type signatures stated in the following table :
 | D                         | double                |
 | L fully-qualified-class ; | fully-qualified-class |
 | [ type                    | type[]                |
-{: rules="groups"}
+
+<table>
+	<tr>
+		<td>
+			**Signature**
+		</td>
+		<td>
+			**Type**
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Z
+		</td>
+		<td>
+			boolean
+		</td>
+	</tr>
+	<tr>
+		<td>
+			B
+		</td>
+		<td>
+			byte
+		</td>
+	</tr>
+	<tr>
+		<td>
+			C
+		</td>
+		<td>
+			char
+		</td>
+	</tr>
+	<tr>
+		<td>
+			S
+		</td>
+		<td>
+			short
+		</td>
+	</tr>
+	<tr>
+		<td>
+			I
+		</td>
+		<td>
+			int
+		</td>
+	</tr>
+	<tr>
+		<td>
+			J
+		</td>
+		<td>
+			long
+		</td>
+	</tr>
+	<tr>
+		<td>
+			F
+		</td>
+		<td>
+			float
+		</td>
+	</tr>
+	<tr>
+		<td>
+			D
+		</td>
+		<td>
+			double
+		</td>
+	</tr>
+	<tr>
+		<td>
+			F
+		</td>
+		<td>
+
+		</td>
+	</tr>
+	<tr>
+		<td>
+			L fully-qualified-class ;
+		</td>
+		<td>
+			fully-qualified-class
+		</td>
+	</tr>
+		<tr>
+		<td>
+			[ type 
+		</td>
+		<td>
+			type[]   
+		</td>
+	</tr>
+</table>
 
 Now you have a reference to type signatures and some java methods ready(I assume) but don't know how to call it from dark side(c++). Here is some example java methods and their signatures below:
 
