@@ -12,9 +12,9 @@ image:
 
 If you are from java world like me, you most probably have chained methods using simple static builder class while instantiating your objects and you know this is builder pattern in aspect of chaining.
 In one of our ndk-android game projects I decided to implement chaining rule of builder pattern instead of using classical "getter/setter" usage. Additionally I was
-planning to use native heap instead of usign local stack memory. Additionally, I didn't want to use any friend classes which I don't find so natural.
+planning to use native heap instead of usign local stack memory and I didn't want to use any friend classes which I don't find so natural.
 
-I just wanted to instantiate Builder and build my actual object. But here, we have to pay attention to possible memory leaks and remove our builder instance on deconstructor of actual object. In the light
+I just wanted to instantiate a builder and build my actual object on it. But here, we have to pay attention to possible memory leaks and remove our builder instance on deconstructor of actual object. In the light
 of these requirements I have implemented my "GiftModel" class as follows.
 
 {% highlight c++ %}
