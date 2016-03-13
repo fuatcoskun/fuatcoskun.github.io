@@ -27,7 +27,7 @@ return Parse.Promise.when([query1, query2]).then(function () {
 it returns different result than I am getting from parse servers. Difference is that returning json object on my local computer has only one key as "0" and an object array
 as value.
 
-{% highlight javascript %}
+{% highlight json %}
 {
    "0":[
       {QuestionObject},
@@ -40,7 +40,7 @@ as value.
 
 On the parse server instance, the same query gives the following result :
 
-{% highlight javascript %}
+{% highlight json %}
 {
    "0":{QuestionObject},
    "1":{QuestionObject},
