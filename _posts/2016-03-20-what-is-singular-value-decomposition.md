@@ -204,3 +204,4 @@ Finally A matrix can be written as divided into 3 matrix in the following figure
 	<img src="http://fuatcoskun.github.io/images/ex27.png" alt="">
 </figure>
 
+I hope you are still with me!. I will share another blog post next week about how to use SVD as pre-process of Neural Networks for improving the recognition performance and reducing input space dimension.
