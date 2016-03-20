@@ -18,6 +18,6 @@ There are 2 dimensional data points in the following figure which regression lin
 In this classification, inner class differences are small, and between class differences are big.  If we draw perpendicular line from each point to the regression line, and took the intersection of those lines as the approximation of the original data point, we would have a reduced representation of the original data that captures as much of the original variation as possible.
 
 <figure>
-	<img src="../images/figure1.png" alt="">
+	<img src="http://fuatcoskun.github.io/images/figure1.png" alt="">
 </figure>
 
