@@ -114,7 +114,7 @@ As similar to previous case we have obtained x1 = 1 and x2 = 1. So eigenvector o
 	<img src="http://fuatcoskun.github.io/images/ex12.png" alt="">
 </figure>
 
-The above 2x2 matrix is initial matrix of U. Now we will try to obtain an orthogonal matrix by using this initial matrix. This initial matrix contains eigenvectors of AA^T. But we have to find orthonormal eigenvectors of AA^T for generating U matrix. There are several methods for orthonormalization and I have used Gram-Schmidt method [1]. It basically begins by normalizing the first column vector under consideration and iteratively rewriting the remaining vectors in terms of themselves minus a multiplication of the already normalized vectors.
+The above 2x2 matrix is initial matrix of U. Now we will try to obtain an orthogonal matrix by using this initial matrix. This initial matrix contains eigenvectors of AA^T. But we have to find orthonormal eigenvectors of AA^T for generating U matrix. There are several methods for orthonormalization and I have used Gram-Schmidt method. It basically begins by normalizing the first column vector under consideration and iteratively rewriting the remaining vectors in terms of themselves minus a multiplication of the already normalized vectors.
 
 <figure>
 	<img src="http://fuatcoskun.github.io/images/ex13.png" alt="">
