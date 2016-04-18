@@ -21,14 +21,16 @@ First of all, you need to download <a href="https://github.com/Applifier/unity-a
 Apply following steps to integrate unity ads library into your project.
 
 <b>1.</b> After downloading unity-ads android library project, put unity-ads directory into libs folder in the root of your android project.
+
 <b>2.</b> Cretae an empty "src" named folder in the root of your unity-ads directory.
+
 <b>3.</b> Open local.properties file in unity-ads directory and,
 
 - tell the source code should ve compiled with java 1.7
 - Show your android sdk path in your local machine.
 
 {% highlight bash %}
-sdk.dir=C:\\Development\\adt-bundle-windows-x86_64-20140702\\sdk
+sdk.dir="C:\\..\\sdk"
 renderscript.opt.level=O0
 java.source=1.7
 java.target=1.7
