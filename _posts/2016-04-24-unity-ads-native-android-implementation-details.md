@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Unity Ads Integration for Android without using aar package
+title: "Unity Ads Implementation Details for Native Android
 description: "Unity Ads Implementation Details for Native Android"
 modified: 2016-04-24
 tags: [unity, ads, android, java]
