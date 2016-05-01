@@ -21,7 +21,7 @@ String textWithEmoji = "This is your text with smile, \ud83d\ude03";
 
 That's ok, but where could we find these unicode form of emojis'?
 
-http://www.charbase.com/block/emoticons
+<a href="http://www.charbase.com/block/emoticons">http://www.charbase.com/block/emoticons</a>
 
 After clicking one of those emojis in the list, you can get and use "Java Escape" form directly.
 
@@ -50,10 +50,10 @@ String notificaitonMessage = "Hi guys, " + decodedEmoji;
 
 Let's say you found some emojis from another web site like this :
 
-https://www.piliapp.com/emoji/list/
+<a href="https://www.piliapp.com/emoji/list/">https://www.piliapp.com/emoji/list/</a>
 
 No problem, you can URL encode it and apply the same method above. You can use the following web site to URL encode emoji.
 
-http://www.freeformatter.com/url-encoder.html#ad-output
+<a href="http://www.freeformatter.com/url-encoder.html#ad-output">http://www.freeformatter.com/url-encoder.html#ad-output</a>
 
 That's all, I wish happy emoji usages for everyone :)
