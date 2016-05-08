@@ -54,10 +54,10 @@ android.library=true
 <b>5.</b> One last thing is to tell your android project that "HockeySDK-4.0.0" is a library project. Copy "HockeySDK-4.0.0" folder into libs folder of your android project and reference it in project.properties file of your android project.
 
 {% highlight bash %}
-android.library.reference.<library_index>=./libs/HockeySDK-4.0.0
+android.library.reference.library_index=./libs/HockeySDK-4.0.0
 {% endhighlight %}
 
-Here "<library_index>" should be the index of this library for your application.
+Here "library_index" should be the index of this library as a digit for your application.
 
 <b>6.</b> Finally <u>if you are using ant</u> for building your application, create build.xml file in the root of your "HockeySDK-4.0.0" directory :
 
