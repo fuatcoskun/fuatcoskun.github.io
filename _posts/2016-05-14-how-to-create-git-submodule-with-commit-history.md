@@ -15,7 +15,7 @@ Challenge of the last week for me was creating a git submodule without losing an
 My directory structure at the beginning was looking like this:
 
 <figure>
-    <img src="http://fuatcoskun.github.io/images/submodule1.png" alt="">
+    <img src="http://fuatcoskun.github.io/images/submodule1.PNG" alt="">
 </figure>
 
 Here Core, Drivers, Engine and Libs directories include some source code files which have been used by another game also. We have decided to sync those libraries under a submodule and I have created an empty github reopsitory called AndroidNativeLib for storing the submodule later on.
@@ -47,7 +47,7 @@ Ref 'refs/heads/master' was rewritten
 You should see that your root directory only contains the files & folders under target directory. (Sources folder as below for me)
 
 <figure>
-    <img src="http://fuatcoskun.github.io/images/submodule2.png" alt="">
+    <img src="http://fuatcoskun.github.io/images/submodule2.PNG" alt="">
 </figure>
 
 <b>4.</b> Our new repository with history has been created but still points to our game repository. Now we need to remove remote repo definitions. Firstly, list existing remotes.</b>
@@ -84,7 +84,7 @@ git push origin .
 Now you can check your new repository on github and check history of source files.
 
 <figure>
-    <img src="http://fuatcoskun.github.io/images/submodule3.png" alt="">
+    <img src="http://fuatcoskun.github.io/images/submodule3.PNG" alt="">
 </figure>
 
 ### Creating and Linking Submodule
@@ -110,7 +110,7 @@ You can check  <a href="https://git-scm.com/book/en/v2/Git-Tools-Submodules">thi
 <b>2.</b> Commit & push everyting created under your main repository. Now you will be able to route to your submodule on github by clicking the link generated for you as below :
 
 <figure>
-    <img src="http://fuatcoskun.github.io/images/submodule4.png" alt="">
+    <img src="http://fuatcoskun.github.io/images/submodule4.PNG" alt="">
 </figure>
 
 That's all. Now we have a submodule including common libraries with existing commit history and it's is also a different git repository :)
