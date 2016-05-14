@@ -29,7 +29,9 @@ Let's start the journey :
 I have used Git Bash for git operations on Windows. You can use terminal on Linux or Mac as you wish.
 
 <b>1.</b> Root directory of the game is "Game" folder you can see on the screenshot above. Go to the root directory.
+
 <b>2.</b> Ensure that you don't have any unstaged changes. I suggest you have a clean new repository without any modified files.
+
 <b>3.</b> Run the following command for creating a new repository from Sources directory in the root on master branch.
 
 {% highlight git %}
