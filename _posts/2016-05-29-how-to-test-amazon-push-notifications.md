@@ -31,8 +31,11 @@ curl -X POST -H "Cache-Control: no-cache" -H "Postman-Token: e902b849-6578-9c43-
 Here we have two parameters as "CLIENT_ID" and "CLIENT_SECRET". You can learn your application specific
 "CLIENT_SECRET" and "CLIENT_ID" from your <a href="https://developer.amazon.com/home.html">Amazon Developer Console</a> page.
 
-After replacing these two parameters with your application and device information, you can run this "adm_getAccessToken-test.sh" or copy/paste it into your console. If everything goes well, you will obtain an
-access token.
+After replacing these two parameters with your application and device information, you can run this "adm_getAccessToken-test.sh" or copy/paste it into your console. If everything goes well, you will obtain an access token in the result as follows.
+
+{% highlight json %}
+{"access_token":"Atc|MQEBIM0Dc27MHx928R3chgdJg8M9QfoefieqnamEN_RZ72psemXLI0M_oFt2w_pXjCE5FFiLTrB2l9B6BU1JxNEXbqV9KV3mLp9RjPS8JID2-jT6XD76KQzP1mHvisQKwrkxrzTc1lV0zOtVkhC5xFVES0pu_aH6VU9Q7plfqR-JEKb0q...nRCzzpYpF2l-iHBnTNF0v4bPNwCTU3ywPGPZVzv0I","scope":"messaging:push","token_type":"bearer","expires_in":3600}
+{% endhighlight %}
 
 ### Sending Push Notification
 
