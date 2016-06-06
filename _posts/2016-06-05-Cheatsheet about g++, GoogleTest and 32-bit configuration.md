@@ -12,13 +12,13 @@ image:
 
 I have worked on g++ compiler and google test for running unit tests of my huge c++ code base on MAC-OS-X operating system and integrating on Jenkins server as well. I have learned many things after some investigation and now I think this information can be useful for the people suffering due to same topic.
 
-### Using .so files built by android ndk
+## Using .so files built by android ndk
 
 First of all, my huge c++ code base is used in one of our top games as ndk built .so file and you know this is also a c++ library. It looks reasonable to use this prepared .so file for compiling with google test library and run unit tests, but as far as I see it is impossible. (If there is anyone who can achieve this, please write me!) Here is my stackoverflow topic about this issue :
 
-## <a href="http://stackoverflow.com/questions/37571476/compiling-with-g-via-linking-so-file-built-by-android-ndk">http://stackoverflow.com/questions/37571476/compiling-with-g-via-linking-so-file-built-by-android-ndk</a>
+### <a href="http://stackoverflow.com/questions/37571476/compiling-with-g-via-linking-so-file-built-by-android-ndk">http://stackoverflow.com/questions/37571476/compiling-with-g-via-linking-so-file-built-by-android-ndk</a>
 
-### g++, gcc and GoogleTest configuration as 32-bit
+## g++, gcc and GoogleTest configuration as 32-bit
 
 After trying to use .so file, I have decided to compile my code base with g++ compiler with 32-bit option, because I have compiled my code base with 32-bit option with ndk so far and I don't want to waste my time with some casting, including etc. issues. I assume you already are familiar with GoogleTest and g++, cmake compile concepts. You need gtest-all and gtest-main libraries built on GoogleTest library. You can use the following command to prepare 32-bit google test (For more information about <a href="https://github.com/google/googletest/tree/master/googletest">google test</a>)
 
