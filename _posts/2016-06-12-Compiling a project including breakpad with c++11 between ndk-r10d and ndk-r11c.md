@@ -22,7 +22,7 @@ You can find all features of c++ 11 in <a href="https://msdn.microsoft.com/en-us
 
 ## ndk with c++ option
 
-You can configure c++ version of your ndk in Application.mk file by putting c++ flag as below :
+You can configure c++ version of your ndk in Application.mk file by putting c++ flag as below.
 
 {% highlight bash %}
 APP_CPPFLAGS += -std=c++11
@@ -203,4 +203,4 @@ In file included from C:/Development/android-ndk-r10d/sources/cxx-stl/gnu-libstd
 
 I have a header file called "Math.h" in my Core library and ndk-build confusing about names and looking for standart "fabs", "sqrt", "sinf", "cosf" declarations in my Math.h header file. You can handle this issue simply by renaming your header files :)
 
-I have tested this configuration and modifications on ndk-r10d and ndk-r11c and think it would work also on and ndk between these two versions. If you don't have a specific issue about your project, "ndk-build" process will be completed succesfully :)
+I have tested this configuration and modifications on ndk-r10d and ndk-r11c and think it would work also on any ndk between these two versions. If you don't have a specific issue about your project, "ndk-build" process will be completed succesfully :)
