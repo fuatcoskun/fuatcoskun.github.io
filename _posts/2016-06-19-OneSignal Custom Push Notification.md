@@ -16,7 +16,7 @@ I have explained how to use custom notifications with OneSignal android SDK inte
 ## Requirements
 
 Approximately a month ago OneSignal has started to support custom push notifications. You need to use version <a href="https://github.com/OneSignal/OneSignal-Android-SDK/tree/2.4.0">2.4.0</a> or newer.
-You can use <a href="https://github.com/OneSignal/OneSignal-Android-SDK/blob/2.4.0/OneSignalSDK.jar"OneSignalSDK.jar</a> directly in your project.
+You can use <a href="https://github.com/OneSignal/OneSignal-Android-SDK/blob/2.4.0/OneSignalSDK.jar">OneSignalSDK.jar</a> directly in your project.
 
 ## Action
 
